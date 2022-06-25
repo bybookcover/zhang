@@ -104,7 +104,8 @@ export default {
         this.$nextTick(()=>{
             this.oBetterScroll = new BetterScroll('.wrapper', {
             movable: true,
-            zoom: true
+            zoom: true,
+            click:true
           })
         })
     },
@@ -122,7 +123,8 @@ export default {
       this.$nextTick(()=>{
           this.tBetterScroll = new BetterScroll('.wrapper', {
           movable: true,
-          zoom: true
+          zoom: true,
+          click:true
         })
       })
     },
